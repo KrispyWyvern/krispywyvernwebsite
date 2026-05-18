@@ -1,0 +1,93 @@
+body{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-image: url(images/persistant\ assets/colour-background.jpg);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #2B222F;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color: #EBECE9;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 34px;
+}
+.navbar li{
+    float: left;
+}
+
+.container{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 0%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    min-height: 100vh;
+    max-height: max-content;
+    background-color: #161019;
+    color: #EBECE9;
+    font-family: Helvetica, sans-serif;   
+    padding-bottom: 1%;  
+}
+
+#ghost{
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+}
+
+#owl{
+    height: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+#header{
+    background-color: #161019;
+    margin: auto;
+}
+
+.box{
+    border: 2px solid #EBECE9;
+    color: #EBECE9;
+    text-decoration: none;
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: 0%;
+    padding: 5%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: fit-content;
+    margin-right: 20px;
+    background-color: #2B222F;
+}
+
+.box p{
+    color: #CBCDCB;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #CBCDCB;
+}

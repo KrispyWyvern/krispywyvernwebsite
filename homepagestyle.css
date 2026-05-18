@@ -1,0 +1,148 @@
+body{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-image: url(images/persistant\ assets/colour-background.jpg);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#leftbox p{color: #2B222F;}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #2B222F;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color: #EBECE9;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 34px;
+}
+.navbar li{
+    float: left;
+}
+
+.container{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 0%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    min-height: 100vh;
+    max-height: max-content;
+    background-color: #161019;
+    color: #EBECE9;
+    font-family: Helvetica, sans-serif;
+     
+}
+
+#barbox1{ 
+    border-top: 2px solid #EBECE9;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #161019;
+    color: #EBECE9;
+    font-size: 1.4em;
+    font-family: Helvetica, sans-serif;
+    float: left;
+    padding: 0%;
+    min-width: 100%;
+    min-height: 19vh;
+    text-align: left;
+    margin: 0%;
+    position: relative;
+    top: 59.7vh;
+    border-radius: 0px;
+    letter-spacing: 25%;
+    padding-left: 9%;
+    overflow: hidden;
+}
+
+#pose1{
+    position: fixed;
+    height: 86.6%;
+    left: 14%;
+}
+
+
+#barbox2{ 
+    border-bottom: 2px solid #EBECE9;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #161019;
+    color: #EBECE9;
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
+    float: left;
+    padding: 0%;
+    min-width: 100%;
+    min-height: 15vh;
+    text-align: left;
+    margin: 0%;
+    position: relative;
+    padding-left: 3%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    border-radius: 0px;
+    
+}
+
+
+
+.box{
+    border: 2px solid #EBECE9;
+    background-color: #161019;
+    color: #EBECE9;
+    font-family: inherit;
+    float: left;
+    padding: 0%;
+    min-width:45.6%;
+    max-width: 45.6%;
+    min-height: 80vh;
+    text-align: center;
+    margin: 2.2%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.box p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+#ghost{
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+}
+
+#owl{
+    height: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.icon{
+    height: 30px;
+    margin: 50px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+
+}
